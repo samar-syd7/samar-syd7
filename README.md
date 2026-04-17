@@ -24,7 +24,7 @@
 
 ## ⚙️ Engineering Focus
 
-I build backend systems where **correctness, traceability, and failure handling are core requirements**.
+I build backend systems where **correctness, traceability, and failure handling are first-class constraints**, not afterthoughts.
 
 My work involves:
 
@@ -32,6 +32,15 @@ My work involves:
 - Building **idempotent and retry-safe workflows** using queues  
 - Handling **data consistency across distributed services**  
 - Ensuring **observability and auditability** in system behavior  
+
+---
+
+## ⚡ System Design Principles
+
+- Systems must remain **deterministic under retries and replays**
+- Failures must be **observable, traceable, and recoverable**
+- Data pipelines must guarantee **consistency under asynchronous execution**
+- External systems (blockchain, HL7 sources) are treated as **unreliable inputs**
 
 ---
 
@@ -46,10 +55,11 @@ My work involves:
 ---
 
 ### 🔗 Blockchain / Web3
-- Transaction monitoring and classification systems  
-- Deterministic processing of on-chain data  
-- Risk scoring pipelines for financial compliance  
-- Bridging on-chain events with backend services  
+- Smart contract development (ERC-721, asset tokenization)
+- On-chain/off-chain state synchronization
+- Event-driven systems using blockchain logs
+- Transaction reliability under RPC and network inconsistencies
+- Bridging blockchain events with backend systems
 
 ---
 
@@ -62,6 +72,24 @@ My work involves:
 ---
 
 ## 🏗️ Selected Systems
+
+### 🔹 Real-World Asset Tokenization Platform (Flagship Web3 System)
+**On-chain asset lifecycle + off-chain consistency guarantees**
+
+- Designed and deployed ERC-721 smart contracts (Solidity) for asset ownership and metadata
+- Built end-to-end asset lifecycle system (mint → transfer → verify)
+- Implemented event-driven state synchronization using blockchain logs (Web3 listeners)
+- Handled on-chain/off-chain consistency under asynchronous transaction execution
+- Resolved RPC inconsistencies and state desynchronization across providers
+
+**Key Engineering Work**
+- Designing systems resilient to eventual consistency of blockchain state
+- Handling transaction finality, retries, and UI state correctness
+- Bridging smart contract events → backend services → frontend state
+
+→ https://github.com/samar-syd7/asset-tokenization-platform
+
+---
 
 ### 🔹 MedLedger
 **Blockchain-backed healthcare data integrity system**
