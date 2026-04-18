@@ -1,12 +1,12 @@
 <!-- ================= HEADER ================= -->
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=34&duration=2500&pause=800&color=00F7FF&center=true&vCenter=true&width=900&lines=Samar+Abbas;Backend+Systems+Engineer;HealthTech+%7C+Blockchain+%7C+FinTech" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=34&duration=2500&pause=800&color=00F7FF&center=true&vCenter=true&width=900&lines=Samar+Abbas;Backend+Systems+Engineer;Distributed+Systems+%7C+Web3+%7C+FinTech" />
 </p>
 
 <p align="center">
-  <b>Backend engineer building reliability-critical distributed systems</b><br/>
-  Focused on healthcare interoperability, financial infrastructure, and blockchain-based systems.
+  <b>Backend engineer building scalable, high-performance distributed systems</b><br/>
+  Focused on backend infrastructure, event-driven systems, and real-time data pipelines.
 </p>
 
 ---
@@ -15,191 +15,98 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Backend-Distributed_Systems-black?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Domain-HealthTech-green?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Domain-Blockchain-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Focus-High_Performance_Systems-red?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Domain-FinTech-purple?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Domain-Blockchain-blue?style=for-the-badge" />
 </p>
 
 ---
 
 ## ⚙️ Engineering Focus
 
-I build backend systems where **correctness, traceability, and failure handling are first-class constraints**, not afterthoughts.
+I build backend systems where **scalability, consistency, and failure handling are critical requirements**.
 
-My work involves:
+My work focuses on:
 
-- Designing **event-driven pipelines** for real-world data systems  
-- Building **idempotent and retry-safe workflows** using queues  
-- Handling **data consistency across distributed services**  
-- Ensuring **observability and auditability** in system behavior  
+* Designing **high-throughput event-driven systems** (Kafka, async pipelines)
+* Building **idempotent, retry-safe workflows** under distributed conditions
+* Developing **real-time data pipelines and streaming systems**
+* Ensuring **system reliability, observability, and performance under load**
 
 ---
 
 ## ⚡ System Design Principles
 
-- Systems must remain **deterministic under retries and replays**
-- Failures must be **observable, traceable, and recoverable**
-- Data pipelines must guarantee **consistency under asynchronous execution**
-- External systems (blockchain, HL7 sources) are treated as **unreliable inputs**
-
----
-
-## 🧠 Domain Expertise
-
-### 🏥 HealthTech (HL7 · FHIR · DICOM)
-- HL7 message parsing and transformation pipelines  
-- DICOM workflows for PACS systems and imaging data  
-- FHIR-based resource modeling and API integration  
-- Data normalization across heterogeneous healthcare systems  
-
----
-
-### 🔗 Blockchain / Web3
-- Smart contract development (ERC-721, asset tokenization)
-- On-chain/off-chain state synchronization
-- Event-driven systems using blockchain logs
-- Transaction reliability under RPC and network inconsistencies
-- Bridging blockchain events with backend systems
-
----
-
-### 💰 FinTech Infrastructure
-- Asynchronous financial data pipelines  
-- Consistency and reconciliation workflows  
-- Queue-based processing for high-integrity systems  
-- Backend systems designed for traceability and compliance  
+* Systems must remain **deterministic under retries and replays**
+* Execution must be **consistent under concurrent input**
+* Failures must be **observable, traceable, and recoverable**
+* External systems are treated as **eventually consistent and unreliable**
 
 ---
 
 ## 🏗️ Selected Systems
 
-### 🔹 Real-World Asset Tokenization Platform (Flagship Web3 System)
-**On-chain asset lifecycle + off-chain consistency guarantees**
+---
 
-- Designed and deployed ERC-721 smart contracts (Solidity) for asset ownership and metadata
-- Built end-to-end asset lifecycle system (mint → transfer → verify)
-- Implemented event-driven state synchronization using blockchain logs (Web3 listeners)
-- Handled on-chain/off-chain consistency under asynchronous transaction execution
-- Resolved RPC inconsistencies and state desynchronization across providers
+### 🔹 Perpetual DEX Matching Engine (Real-Time Trading System)
+
+**Low-latency order execution engine with deterministic matching**
+
+* Built **price-time priority (FIFO) matching engine** with support for partial fills and cancellations
+* Designed **order book (price-level architecture)** enabling **O(1) best bid/ask access**
+* Implemented **deterministic execution** using sequence IDs for replayability
+* Developed **real-time streaming (WebSockets)** for order book and trade updates
+* Achieved **sub-millisecond processing latency** in local benchmarks
 
 **Key Engineering Work**
-- Designing systems resilient to eventual consistency of blockchain state
-- Handling transaction finality, retries, and UI state correctness
-- Bridging smart contract events → backend services → frontend state
 
-→ https://github.com/samar-syd7/asset-tokenization-platform
+* Matching logic under concurrent order flow
+* Low-latency system design and execution guarantees
+* Real-time state propagation and consistency
+
+→ https://github.com/samar-syd7/dex-matching-engine
 
 ---
 
-### 🔹 MedLedger
-**Blockchain-backed healthcare data integrity system**
+### 🔹 Crypto Transaction Monitoring System
 
-- Designed pipeline for **HL7 → normalized schema → FHIR resources**
-- Anchored critical data hashes onto blockchain for **tamper-evidence**
-- Built backend services using **FastAPI / Django**
-- Containerized services with **Docker**
-- Designed for **auditability and cross-system consistency**
+**Event-driven financial processing and risk evaluation**
 
-**Key Engineering Work**
-- Data normalization across inconsistent HL7 messages  
-- Deterministic hashing for record verification  
-- Handling partial/invalid healthcare data safely  
-
-→ https://github.com/samar-syd7/medledger
-
----
-
-### 🔹 Crypto Transaction Monitoring API
-**Deterministic risk scoring and compliance backend**
-
-- Built **event-driven transaction processing pipeline**
-- Designed **rule-based scoring engine** for AML-style monitoring
-- Processed transaction flows using **queue-based systems (Redis / Kafka)**
-- Structured backend using **FastAPI / Spring Boot (modular services)**
-
-**Key Engineering Work**
-- Idempotent transaction evaluation (no duplicate scoring)  
-- Traceable decision pipelines for compliance review  
-- Handling asynchronous transaction ingestion  
+* Built **Kafka-based ingestion pipelines** for high-volume transaction streams
+* Implemented **risk scoring engine** for anomaly detection and compliance workflows
+* Designed **audit logging architecture** ensuring traceability across distributed systems
 
 → https://github.com/samar-syd7/crypto-transaction-monitoring-api
 
 ---
 
-### 🔹 Exchange Ops Automation Service
-**Distributed job orchestration and execution system**
+### 🔹 Real-World Asset Tokenization Platform
 
-- Implemented **Celery-based distributed task execution**
-- Built **retry-safe pipelines with backoff strategies**
-- Used **Redis queues** for asynchronous processing
-- Containerized worker + API services using **Docker**
+**On-chain asset lifecycle with off-chain consistency guarantees**
 
-**Key Engineering Work**
-- Idempotent job execution (safe retries)  
-- Failure recovery mechanisms for long-running tasks  
-- Separation of orchestration vs execution layers  
+* Designed and deployed **ERC-721 smart contracts**
+* Built backend services for **asset lifecycle (mint → transfer → verify)**
+* Implemented **event-driven synchronization** using blockchain logs
+* Handled **on-chain/off-chain consistency** under asynchronous execution
 
-→ https://github.com/samar-syd7/exchange-ops-automation-service
+→ https://github.com/samar-syd7/asset-tokenization-platform
 
 ---
 
-## 🧭 System Flow (Conceptual Architecture)
-
-### HealthTech Pipeline (HL7 → FHIR → Blockchain)
+## 🧭 System Flow (Trading System)
 
 ```text
-HL7 Messages
+Incoming Orders
      ↓
-Parsing & Validation Layer
+Matching Engine (Price-Time Priority)
      ↓
-Normalization Engine
+Order Book Update
      ↓
-FHIR Resource Mapping
+Trade Execution
      ↓
-Hashing Layer (Deterministic)
+Event Stream (WebSockets)
      ↓
-Blockchain Anchoring
-     ↓
-API Layer (Access / Query)
-
-```
-
-### FinTech / Blockchain Pipeline (Transaction Monitoring)
-
-```text
-Incoming Transactions
-     ↓
-Queue / Stream (Kafka / Redis)
-     ↓
-Processing Workers
-     ↓
-Risk Scoring Engine
-     ↓
-Decision Output (Flag / Score)
-     ↓
-Storage (PostgreSQL)
-     ↓
-Audit Logs / Traceability
-
-```
-
-### Distributed Job Execution System
-
-```text
-Client Request
-     ↓
-API Layer
-     ↓
-Task Queue (Redis)
-     ↓
-Worker Nodes (Celery)
-     ↓
-Execution + Retry Logic
-     ↓
-Result Storage
-     ↓
-Monitoring (Prometheus Metrics)
-
+Client State Sync
 ```
 
 ---
@@ -207,32 +114,32 @@ Monitoring (Prometheus Metrics)
 ## 🧩 Systems & Architecture Patterns
 
 ```text
-Event-Driven Architecture   | Kafka / Redis Queues
-Idempotent Processing       | Retry / Backoff Handling
-Distributed Task Execution  | Celery Workers
-Data Consistency Models     | Reconciliation Pipelines
-Schema Validation           | HL7 / FHIR Processing
-Observability               | Logging, Traceability
-````
+Event-Driven Architecture   | Kafka / Streams
+Matching Engine Design      | Order Book + Execution Logic
+Idempotent Processing       | Replay Safety
+Concurrency Control         | Deterministic Execution
+Real-Time Systems           | WebSockets / Streaming
+Observability               | Metrics + Monitoring
+```
 
 ---
 
 ## 🛠️ Tech Stack
 
 ```text
-Languages → Python · Go · Java · TypeScript
+Languages → Go · TypeScript · Python · Java  
 
-Backend Systems → Django · FastAPI · Spring Boot
+Backend Systems → Node.js · Fastify · Django · Spring Boot  
 
-Distributed Systems & Messaging → Kafka · Redis · Celery · Event-driven architectures
+Distributed Systems → Kafka · Redis · Event-driven architectures  
 
-Data & Storage → PostgreSQL · Relational data modeling
+Data → PostgreSQL · Relational modeling  
 
-Infrastructure & DevOps → Docker · Containerized services · CI/CD workflows
+Infrastructure → Docker · Containerized services · CI/CD  
 
-Observability & Monitoring → Prometheus · Metrics-based monitoring · System visibility
+Observability → Prometheus · Metrics-based monitoring  
 
-APIs & Integration → REST APIs · HL7 · FHIR · DICOM
+Blockchain → Solidity · Ethereum · Web3.js  
 ```
 
 ---
@@ -248,20 +155,20 @@ APIs & Integration → REST APIs · HL7 · FHIR · DICOM
 
 ## 🎯 Current Work
 
-* Building **healthcare interoperability pipelines (HL7 → FHIR)**
-* Designing **blockchain-integrated backend systems**
-* Developing **event-driven financial processing systems**
-* Improving **reliability and observability in distributed systems**
+* Building **high-performance backend systems and real-time pipelines**
+* Designing **event-driven architectures using Kafka and distributed systems patterns**
+* Developing **low-latency execution and data processing systems**
+* Improving **system reliability, observability, and scalability under load**
 
 ---
 
 ## 📫 Availability
 
 * Open to backend / distributed systems roles
-* Focus: Infrastructure · Platform · Systems Engineering
+* Focus: Infrastructure · Platform · Trading Systems
 
 ---
 
 ## ⚡ Engineering Principle
 
-> Systems must remain deterministic, observable, and consistent under failure.
+> Systems must remain deterministic, observable, and correct under failure.
