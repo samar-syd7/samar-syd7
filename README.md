@@ -1,11 +1,14 @@
 <!-- ================= HEADER ================= -->
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=2500&pause=800&color=00F7FF&center=true&vCenter=true&width=1100&lines=Samar+Abbas;Backend+%26+Infrastructure+Engineer;Distributed+Systems+%7C+Rust+%7C+Scalable+Architectures" />
+  <img
+    src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=30&duration=2500&pause=800&color=00F7FF&center=true&vCenter=true&width=1400&height=80&lines=Samar+Abbas;Backend+%26+Infrastructure+Engineer;%20%20Distributed+Systems+%7C+Scalable+Architectures+%7C+Multi-Stack+Engineering"
+    alt="Typing SVG"
+  />
 </p>
 
 <p align="center">
-  <b>Building scalable backend systems, distributed infrastructure, and high-performance execution pipelines.</b>
+  <b>Building scalable backend systems, distributed infrastructure, real-time execution pipelines, and production-grade architectures.</b>
 </p>
 
 ---
@@ -16,23 +19,26 @@
   <img src="https://img.shields.io/badge/Backend-Engineering-black?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Focus-Distributed_Systems-red?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Infrastructure-Scalable_Architectures-blue?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Rust-Systems_Programming-orange?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Multi--Stack-Engineering-orange?style=for-the-badge" />
 </p>
 
 ---
 
 # ⚙️ Engineering Focus
 
-I build backend systems where scalability, reliability, concurrency, and deterministic execution are critical requirements.
+I build backend systems where scalability, reliability, concurrency, and operational simplicity are critical requirements.
 
-My work focuses on:
+My work spans:
 
-* Designing scalable distributed systems and event-driven architectures
-* Building high-performance async backend infrastructure
-* Developing low-latency execution pipelines in Rust and Go
-* Implementing deterministic and replay-safe state transition systems
-* Building resilient services with observability and fault tolerance
-* Exploring cryptographic systems, blockchain infrastructure, and distributed execution
+* Distributed systems and event-driven architectures
+* High-performance backend infrastructure
+* Real-time execution and processing systems
+* Blockchain and settlement infrastructure
+* Healthcare interoperability systems (FHIR / HL7 / DICOM)
+* Financial systems and transaction processing
+* Production-grade APIs and asynchronous services
+
+I enjoy designing systems that remain deterministic, observable, and resilient under concurrency and failure.
 
 ---
 
@@ -41,7 +47,7 @@ My work focuses on:
 * Systems should remain deterministic under retries and failures
 * Distributed workloads should prioritize consistency and observability
 * Infrastructure should be scalable, traceable, and operationally simple
-* Failures must be recoverable and measurable
+* Failures must be measurable, recoverable, and debuggable
 * Performance optimizations should not compromise correctness
 
 ---
@@ -84,14 +90,25 @@ My work focuses on:
 * Developed real-time streaming infrastructure for order book updates and trade execution
 * Achieved sub-millisecond processing latency in local benchmarks
 
+→ https://github.com/samar-syd7/dex-matching-engine
+
+---
+
+## 🔹 Healthcare Interoperability Infrastructure
+
+**FHIR / HL7 / DICOM backend systems for healthcare data exchange**
+
+* Built backend systems for healthcare interoperability workflows
+* Worked with HL7 messaging pipelines and DICOM imaging integrations
+* Developed APIs and processing services for healthcare data exchange
+* Designed scalable backend services for hospital and clinical systems
+
 ### Key Engineering Areas
 
-* High-throughput event processing
-* Deterministic concurrent execution
-* Real-time streaming systems
-* Low-latency backend infrastructure
-
-→ https://github.com/samar-syd7/dex-matching-engine
+* Healthcare interoperability standards
+* Event-driven healthcare workflows
+* Medical data processing systems
+* Backend integration architecture
 
 ---
 
@@ -121,33 +138,16 @@ My work focuses on:
 
 ---
 
-# 🧭 Distributed Execution Flow
+# 🧭 Systems & Architecture Areas
 
-```text
-Incoming Requests
-        ↓
-Concurrent Processing Layer
-        ↓
-Execution / State Transition Engine
-        ↓
-Batch Processing & Validation
-        ↓
-Persistence & Settlement
-        ↓
-Finalized State
-```
-
----
-
-# 🧩 Systems & Architecture Patterns
-
-```text
-Distributed Systems        | Deterministic Execution
+```text id="p9n3rf"
+Distributed Systems        | Backend Infrastructure
 Concurrency Engineering    | Async Runtime + Parallelism
 Event-Driven Architecture  | Kafka / Streaming Pipelines
-Backend Infrastructure     | Fault-Tolerant Services
-Blockchain Infrastructure  | Rollup State Transitions
-Persistence                | RocksDB / Durable Storage
+Healthcare Interoperability| FHIR / HL7 / DICOM
+Financial Infrastructure   | Transaction Processing
+Blockchain Infrastructure  | Settlement Systems
+Persistence                | PostgreSQL / RocksDB
 Observability              | Metrics + Structured Logging
 Infrastructure Automation  | Docker + CI/CD
 ```
@@ -156,24 +156,27 @@ Infrastructure Automation  | Docker + CI/CD
 
 # 🛠️ Tech Stack
 
-```text
+```text id="l7o2av"
 Languages →
 Rust · Go · TypeScript · Python · Java
 
-Backend Infrastructure →
-Tokio · Axum · Fastify · Django · Spring Boot
+Backend →
+Axum · Tokio · Fastify · Django · Spring Boot · Node.js
 
 Distributed Systems →
 Kafka · Redis · Event-driven architectures
 
-Blockchain & Cryptography →
+Blockchain →
 Ethereum · Solidity · Halo2 · Ethers-RS · Zero-Knowledge Systems
+
+Healthcare →
+FHIR · HL7 · DICOM · PACS
 
 Data & Persistence →
 PostgreSQL · RocksDB · Relational modeling
 
 Infrastructure →
-Docker · CI/CD · GitHub Actions · Containerized services
+Docker · GitHub Actions · CI/CD · Containerized services
 
 Observability →
 Prometheus · Metrics-based monitoring · Structured tracing
@@ -195,15 +198,15 @@ Prometheus · Metrics-based monitoring · Structured tracing
 * Building scalable backend infrastructure and distributed execution systems
 * Designing high-performance async services and event-driven architectures
 * Exploring zero-knowledge systems and blockchain infrastructure
-* Improving system reliability, observability, and deterministic execution
-* Building scalable financial and real-time processing systems
+* Working on healthcare interoperability and backend integration systems
+* Improving reliability, observability, and deterministic execution in distributed workloads
 
 ---
 
 # 📫 Availability
 
-* Open to backend engineering, distributed systems, infrastructure, fintech, blockchain, and protocol engineering roles
-* Interested in scalable systems, execution infrastructure, low-latency systems, and reliability engineering
+* Open to backend engineering, distributed systems, infrastructure, fintech, healthcare-tech, blockchain, and protocol engineering roles
+* Interested in scalable systems, execution infrastructure, low-latency services, and reliability engineering
 
 ---
 
