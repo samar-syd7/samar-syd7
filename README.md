@@ -139,8 +139,7 @@ Recent topics include:
 ## GitHub Analytics
 
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=samar-syd7&show_icons=true&hide_border=true&rank_icon=github&count_private=true" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=samar-syd7&layout=compact&hide_border=true" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=samar-syd7&theme=github_dark" />
 </p>
 
 ---
