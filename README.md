@@ -1,215 +1,152 @@
-<!-- ================= HEADER ================= -->
+<div align="center">
 
-<p align="center">
-  <img
-    src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=30&duration=2500&pause=800&color=00F7FF&center=true&vCenter=true&width=1400&height=80&lines=Samar+Abbas;Backend+%26+Infrastructure+Engineer;%20%20Distributed+Systems+%7C+Scalable+Architectures+%7C+Multi-Stack+Engineering"
-    alt="Typing SVG"
-  />
-</p>
+# Samar Abbas
 
-<p align="center">
-  <b>Building scalable backend systems, distributed infrastructure, real-time execution pipelines, and production-grade architectures.</b>
-</p>
+### Backend Engineer
+
+Building software across Healthcare, Financial Infrastructure, and Blockchain Systems.
+
+</div>
 
 ---
 
-<!-- ================= BADGES ================= -->
+## About
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Backend-Engineering-black?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Focus-Distributed_Systems-red?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Infrastructure-Scalable_Architectures-blue?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Multi--Stack-Engineering-orange?style=for-the-badge" />
-</p>
+I build backend systems that process transactions, exchange healthcare data, coordinate distributed workloads, and interact with blockchain networks.
+
+My interests include distributed systems, event-driven architectures, financial infrastructure, healthcare interoperability, smart contract development, and reliability engineering.
 
 ---
 
-# ⚙️ Engineering Focus
+## Featured Work
 
-I build backend systems where scalability, reliability, concurrency, and operational simplicity are critical requirements.
+<table>
+<tr>
+<td width="50%">
 
-My work spans:
+### 🩺 Healthcare Infrastructure
 
-* Distributed systems and event-driven architectures
-* High-performance backend infrastructure
-* Real-time execution and processing systems
-* Blockchain and settlement infrastructure
-* Healthcare interoperability systems (FHIR / HL7 / DICOM)
-* Financial systems and transaction processing
-* Production-grade APIs and asynchronous services
+* PACS Server
+* HL7 Integration Engine
+* FHIR-Based Systems
+* DICOM Processing Workflows
 
-I enjoy designing systems that remain deterministic, observable, and resilient under concurrency and failure.
+Building systems for healthcare interoperability, medical imaging, and clinical data exchange.
 
----
+</td>
 
-# ⚡ System Design Principles
+<td width="50%">
 
-* Systems should remain deterministic under retries and failures
-* Distributed workloads should prioritize consistency and observability
-* Infrastructure should be scalable, traceable, and operationally simple
-* Failures must be measurable, recoverable, and debuggable
-* Performance optimizations should not compromise correctness
+### 💳 Financial Infrastructure
 
----
+* Transaction Monitoring Platform
+* Risk Evaluation Workflows
+* Event Processing Pipelines
+* Audit & Compliance Systems
 
-# 🏗️ Selected Systems
+Focused on reliable transaction processing and operational visibility.
 
----
+</td>
+</tr>
 
-## 🔹 Atlas ZK Rollup (Rust + Distributed Infrastructure)
+<tr>
+<td width="50%">
 
-**Production-oriented rollup and settlement architecture built in Rust**
+### ⚡ Trading Systems
 
-* Built a concurrent transaction sequencer using Tokio async runtime and Rayon parallel execution
-* Implemented custom zero-knowledge proving pipelines with Halo2
-* Designed deterministic batch processing and state transition architecture
-* Developed Ethereum settlement integration using Solidity verifier contracts and Ethers-RS
-* Implemented persistent state storage using RocksDB
-* Built async RPC transaction ingestion services with Axum
-* Added CI/CD pipelines, Dockerized infrastructure, and proof benchmarking
+* Perpetual DEX Matching Engine
+* Real-Time Order Processing
+* Deterministic Execution Logic
 
-### Key Engineering Areas
+Designed around correctness, replayability, and low-latency execution.
 
-* Concurrent execution and async orchestration
-* Distributed state transition systems
-* Persistence and replay protection
-* Infrastructure reliability and observability
-* Cryptographic verification pipelines
+</td>
 
-→ https://github.com/samar-syd7/atlas-zk-rollup
+<td width="50%">
 
----
+### ⛓️ Blockchain Infrastructure
 
-## 🔹 Perpetual DEX Matching Engine
+* Atlas Staking Protocol
+* Atlas ZK Rollup
+* Asset Tokenization Platform
 
-**Low-latency execution engine with deterministic order matching**
+Working with smart contracts, settlement systems, and blockchain integrations.
 
-* Built FIFO-based matching engine with support for partial fills and cancellations
-* Designed order book architecture optimized for low-latency access
-* Implemented deterministic replay-safe execution using sequence IDs
-* Developed real-time streaming infrastructure for order book updates and trade execution
-* Achieved sub-millisecond processing latency in local benchmarks
-
-→ https://github.com/samar-syd7/dex-matching-engine
+</td>
+</tr>
+</table>
 
 ---
 
-## 🔹 Healthcare Interoperability Infrastructure
+## Selected Projects
 
-**FHIR / HL7 / DICOM backend systems for healthcare data exchange**
-
-* Built backend systems for healthcare interoperability workflows
-* Worked with HL7 messaging pipelines and DICOM imaging integrations
-* Developed APIs and processing services for healthcare data exchange
-* Designed scalable backend services for hospital and clinical systems
-
-### Key Engineering Areas
-
-* Healthcare interoperability standards
-* Event-driven healthcare workflows
-* Medical data processing systems
-* Backend integration architecture
+| Project                           | Description                                                                                             |
+| --------------------------------- | ------------------------------------------------------------------------------------------------------- |
+| **Atlas ZK Rollup**               | Rust-based rollup infrastructure with transaction sequencing, proving systems, and Ethereum settlement. |
+| **Atlas Staking Protocol**        | Production-oriented staking protocol built with Solidity and Foundry.                                   |
+| **DEX Matching Engine**           | Deterministic matching engine supporting real-time order execution.                                     |
+| **Crypto Transaction Monitoring** | Event-driven monitoring and risk evaluation platform.                                                   |
+| **PACS Server**                   | Medical imaging infrastructure supporting DICOM workflows.                                              |
+| **HL7 Integration Engine**        | Healthcare interoperability platform for clinical messaging.                                            |
 
 ---
 
-## 🔹 Crypto Transaction Monitoring System
+## Technologies
 
-**Event-driven transaction ingestion and distributed risk evaluation platform**
+```text
+Languages
+Rust • Go • Java • Python • Solidity • TypeScript
 
-* Built Kafka-based ingestion pipelines for high-volume financial transaction streams
-* Implemented distributed risk scoring and anomaly detection workflows
-* Designed audit logging architecture for traceability and replayability
-* Built resilient event-driven processing systems with retry handling and fault tolerance
+Backend
+Spring Boot • Django • Axum • Node.js
 
-→ https://github.com/samar-syd7/crypto-transaction-monitoring-api
+Infrastructure
+Kafka • PostgreSQL • Redis • Docker • GitHub Actions
 
----
+Healthcare
+FHIR • HL7 • DICOM • PACS
 
-## 🔹 Real-World Asset Tokenization Platform
-
-**Asset lifecycle and synchronization infrastructure**
-
-* Designed and deployed ERC-721 smart contracts
-* Built backend services for mint → transfer → verification workflows
-* Implemented blockchain event synchronization pipelines
-* Handled asynchronous on-chain/off-chain consistency guarantees
-
-→ https://github.com/samar-syd7/asset-tokenization-platform
-
----
-
-# 🧭 Systems & Architecture Areas
-
-```text id="p9n3rf"
-Distributed Systems        | Backend Infrastructure
-Concurrency Engineering    | Async Runtime + Parallelism
-Event-Driven Architecture  | Kafka / Streaming Pipelines
-Healthcare Interoperability| FHIR / HL7 / DICOM
-Financial Infrastructure   | Transaction Processing
-Blockchain Infrastructure  | Settlement Systems
-Persistence                | PostgreSQL / RocksDB
-Observability              | Metrics + Structured Logging
-Infrastructure Automation  | Docker + CI/CD
+Blockchain
+Ethereum • Foundry • OpenZeppelin • Zero-Knowledge Systems
 ```
 
 ---
 
-# 🛠️ Tech Stack
+## Current Focus
 
-```text id="l7o2av"
-Languages →
-Rust · Go · TypeScript · Python · Java
-
-Backend →
-Axum · Tokio · Fastify · Django · Spring Boot · Node.js
-
-Distributed Systems →
-Kafka · Redis · Event-driven architectures
-
-Blockchain →
-Ethereum · Solidity · Halo2 · Ethers-RS · Zero-Knowledge Systems
-
-Healthcare →
-FHIR · HL7 · DICOM · PACS
-
-Data & Persistence →
-PostgreSQL · RocksDB · Relational modeling
-
-Infrastructure →
-Docker · GitHub Actions · CI/CD · Containerized services
-
-Observability →
-Prometheus · Metrics-based monitoring · Structured tracing
-```
+* Open Source Contributions
+* Distributed Systems
+* Blockchain Infrastructure
+* Healthcare Technology
+* Financial Systems
+* Backend Platform Engineering
 
 ---
 
-# 📊 GitHub Analytics
+## Writing
+
+I occasionally write about software engineering, backend development, system design, and lessons learned while building software.
+
+Recent topics include:
+
+* Software Engineering Lessons
+* Building in Public
+* Backend Architecture
+* Career Growth Through Projects
+
+---
+
+## GitHub Analytics
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=samar-syd7&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" height="150"/>
-  <img src="https://streak-stats.demolab.com/?user=samar-syd7&theme=tokyonight&hide_border=true" height="150"/>
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=samar-syd7&show_icons=true&hide_border=true&rank_icon=github&count_private=true" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=samar-syd7&layout=compact&hide_border=true" />
 </p>
 
 ---
 
-# 🎯 Current Work
+<div align="center">
 
-* Building scalable backend infrastructure and distributed execution systems
-* Designing high-performance async services and event-driven architectures
-* Exploring zero-knowledge systems and blockchain infrastructure
-* Working on healthcare interoperability and backend integration systems
-* Improving reliability, observability, and deterministic execution in distributed workloads
+Building systems, documenting lessons, and continuously improving the engineering behind them.
 
----
-
-# 📫 Availability
-
-* Open to backend engineering, distributed systems, infrastructure, fintech, healthcare-tech, blockchain, and protocol engineering roles
-* Interested in scalable systems, execution infrastructure, low-latency services, and reliability engineering
-
----
-
-# ⚡ Engineering Principle
-
-> Reliable systems are deterministic, observable, scalable, and resilient under failure.
+</div>
